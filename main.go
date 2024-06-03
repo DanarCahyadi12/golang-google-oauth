@@ -66,7 +66,7 @@ func main() {
 		}
 
 		defer response.Body.Close()
-		var user User                           //map for user info
+		var user User                           //user variable
 		bytes, err := io.ReadAll(response.Body) //reading response body from client
 		if err != nil {
 			return c.Status(fiber.StatusInternalServerError).SendString("Error reading response body: " + err.Error())
