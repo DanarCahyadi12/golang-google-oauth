@@ -77,8 +77,8 @@ func main() {
 		}
 
 		/*
-			Do everything you want like
-			storing user information into database, etc.....
+			Do everything you want
+			like storing user information into database, etc.....
 		*/
 		return c.Status(fiber.StatusOK).JSON(user) //return user info
 
