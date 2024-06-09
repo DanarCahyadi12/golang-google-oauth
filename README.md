@@ -4,8 +4,7 @@
 Example authentication with google.  
 
 Make sure you have google client id, client secret, redirect url. 
-# Get client id, client secret & redirect url tutorial
-https://www.balbooa.com/help/gridbox-documentation/integrations/other/google-client-id
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -28,6 +27,9 @@ To run this project, you will need to add the following environment variables to
 - Visit "http://localhost:8080/oauth/google" link on your browser
 - Choose your google account
 - Google automatically redirect to the URL you set before and return the user information.
+
+Full tutorial [here](https://medium.com/@danarcahyadi21/simple-google-oauth-sign-in-with-google-with-go-and-fiber-69be7af87f68)
+
 
 
 
